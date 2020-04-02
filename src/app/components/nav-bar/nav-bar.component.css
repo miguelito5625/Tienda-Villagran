@@ -1,0 +1,10 @@
+.count-notif{
+    vertical-align:middle;
+    margin-left:-5px;
+    margin-top: -20px;
+    font-size:13px;
+  }
+  
+  .badge-warning{
+    padding:3px;
+  }
