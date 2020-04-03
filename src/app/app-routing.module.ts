@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PrincipalComponentComponent } from './components/principal-component/principal-component.component';
 import { Page1Component } from './components/page1/page1.component';
 import { Page2Component } from './components/page2/page2.component';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: "page2",
     component: Page2Component
+  },
+  {
+    path: 'shopping-cart',
+    component: ShoppingCartComponent
   }
 ];
 

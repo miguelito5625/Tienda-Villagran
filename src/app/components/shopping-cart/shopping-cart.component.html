@@ -1,0 +1,36 @@
+<h3> <span class="badge badge-secondary">Shopping Cart</span></h3>
+
+<div class="row">
+
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
+
+        <ul class="list-group">
+            <li *ngFor="let item of itemsCart" class="list-group-item">
+               
+                <app-shopping-cart-item [itemCart]="item"></app-shopping-cart-item>
+
+            </li>
+            <!-- <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li> -->
+          </ul>
+
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-6">
+
+        <div class="card text-center">
+            <div class="card-header">
+              <h5 class="card-title">Total Shopping Cart</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Total: $20</p>
+              
+              <a href="#" class="btn btn-primary btn-lg font-weight-bold w-50">Pay <i class="far fa-credit-card"></i></a>
+            </div>
+          </div>
+
+    </div>
+
+</div>
